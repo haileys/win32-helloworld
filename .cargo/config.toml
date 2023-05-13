@@ -1,0 +1,8 @@
+[build]
+target = "i386-pc-windows-none.json"
+
+[unstable]
+build-std = ["core", "alloc"]
+
+[target.i386-pc-windows-none]
+rustflags = ["-C", "panic=abort"]
