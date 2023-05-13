@@ -24,6 +24,4 @@ pub extern "system" fn WinMain() -> c_int {
     }
 
     panic!("oh no!");
-
-    0
 }
