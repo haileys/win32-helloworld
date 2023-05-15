@@ -1,8 +1,8 @@
 [build]
-target = "i386-pc-windows-none.json"
+target = "i386-pc-win9x-lld.json"
 
 [unstable]
 build-std = ["core", "alloc"]
 
-[target.i386-pc-windows-none]
+[target.i386-pc-win9x-lld]
 rustflags = ["-C", "panic=abort"]

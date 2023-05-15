@@ -21,7 +21,7 @@
   "llvm-target": "i386-pc-windows-msvc",
   "max-atomic-width": 64,
   "no-default-libraries": false,
-  "os": "windows",
+  "os": "win9x",
   "pre-link-args": {
     "lld-link": [
       "/NOLOGO",
