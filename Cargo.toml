@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 cstr = "0.2"
 vc6-sys = { git = "https://github.com/haileys/vc6-sys" }
+dlmalloc = { git = "https://github.com/haileys/dlmalloc-rs", features = ["global"] }

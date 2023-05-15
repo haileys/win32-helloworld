@@ -2,8 +2,10 @@
 #![no_main]
 extern crate alloc;
 
-mod allocator;
 mod panic;
+
+#[global_allocator]
+static ALLOC: dlmalloc::GlobalDlmalloc = dlmalloc::GlobalDlmalloc;
 
 use core::ffi::c_int;
 use core::ptr;
