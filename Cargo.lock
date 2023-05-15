@@ -53,7 +53,7 @@ checksum = "e5464a87b239f13a63a501f2701565754bae92d243d4bb7eb12f6d57d2269bf4"
 [[package]]
 name = "vc6-sys"
 version = "0.1.0"
-source = "git+https://github.com/haileys/vc6-sys#491640a61a0c578632d7fdd19c1d4d214cab8805"
+source = "git+https://github.com/haileys/vc6-sys#63341169a014ef637427e2beba57542753395f0b"
 
 [[package]]
 name = "win32-helloworld"
